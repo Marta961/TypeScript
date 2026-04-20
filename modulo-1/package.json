@@ -1,0 +1,18 @@
+{
+  "name": "modulo-1",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Laboratorio 1: TypeScript estricto y estadística",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "ejecutar:tsx": "tsx src/index.ts",
+    "ejecutar:tsc": "tsc",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
